@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Atom — custom Minecraft thumbnails made to stop the scroll." />
+    <title>Atom — Minecraft thumbnails</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="scene" aria-hidden="true">
+      <span class="orb orb-one"></span>
+      <span class="orb orb-two"></span>
+      <span class="orb orb-three"></span>
+      <span class="grid-plane"></span>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Atom home">Atom</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span></span><span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="nav-links" id="site-menu">
+          <a href="#about">About</a>
+          <a href="#clients">Clients</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#gallery">Gallery</a>
+          <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Thumbnail archive <span class="eyebrow-divider">/</span> 2024—26</p>
+          <h1 id="hero-title">Make them<br /><span>stop scrolling.</span></h1>
+          <p class="hero-intro">Custom Minecraft thumbnails with big energy, clean composition, and just enough chaos to make the click feel inevitable.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#gallery">Browse the gallery <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">What I make <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="clients-section shell page-section" id="clients" aria-labelledby="clients-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">01 / Clients</p><h2 id="clients-title">Made for<br /><span>your favorites.</span></h2></div>
+          <p class="section-note">From first-time uploaders to established SMPs, the goal stays the same: make the right people stop.</p>
+        </div>
+        <div class="client-grid client-roster reveal reveal-delay-1" aria-label="Selected clients"><p class="clients-empty" hidden>No client profiles have been added yet.</p></div>
+        <button class="show-more-clients" id="show-more-clients" type="button" hidden>Show more clients <span aria-hidden="true">↗</span></button>
+        <div class="client-strip reveal reveal-delay-2"><span>Selected by creators who want a stronger first frame.</span><span>Artwork as you want</span></div>
+      </section>
+
+      <section class="gallery-section shell page-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 / Thumbnail gallery</p>
+            <h2 id="gallery-title">A few thumbnails<br /><span>worth clicking into.</span></h2>
+          </div>
+          <p class="section-note">Every thumbnail is designed around one clear idea: a moment, a mood, or a little bit of danger.</p>
+        </div>
+
+        <div class="gallery-grid">
+        </div>
+
+        <p class="empty-state" hidden>No thumbnails have been added yet.</p>
+      </section>
+
+      <section class="about-section shell page-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">03 / About me</p><h2 id="about-title">Ideas in.<br /><span>Clicks out.</span></h2></div>
+          <p class="section-note">I turn the feeling of a Minecraft video into one frame that makes people curious enough to press play.</p>
+        </div>
+        <div class="about-layout">
+          <div class="about-panel glass-panel reveal">
+            <p class="about-lead">I’m Atom — an 18-year-old thumbnail designer focused on making clean, high-CTR thumbnails for Minecraft creators.</p>
+            <p class="about-copy">I work independently to make every thumbnail clear, clickable, and built around one strong idea. My goal is simple: help your videos earn the first click with sharper composition, readable type, and visuals that feel made for your channel.</p>
+            <a class="text-link" href="#contact">Tell me about your next upload <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-facts glass-panel reveal reveal-delay-1">
+            <div><span class="meta-label">Approach</span><strong>Clear before clever</strong><p>One story, one focal point, zero visual noise.</p></div>
+            <div><span class="meta-label">Turnaround</span><strong>02 — 04 days</strong><p>Fast enough to keep up with an active upload schedule.</p></div>
+            <div><span class="meta-label">Payment method</span><strong>PayPal</strong><p>Simple and secure payments for thumbnail commissions.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section shell page-section" id="reviews" aria-labelledby="reviews-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">04 / Reviews</p><h2 id="reviews-title">Clients say it<br /><span>best.</span></h2></div>
+          <p class="section-note">The work should feel good before the upload, and even better when the numbers come in.</p>
+        </div>
+        <div class="testimonial-grid" id="review-list" aria-live="polite"></div>
+      </section>
+
+      <section class="contact-section shell page-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel glass-panel reveal">
+          <div><p class="eyebrow">05 / Contact us</p><h2 id="contact-title">Have an upload<br /><span>to show off?</span></h2></div>
+          <div class="contact-copy"><p>Tell me what you are making, where it is going, and what you want people to feel when they see it.</p><span class="contact-note">Open for thumbnail commissions</span><a class="button button-primary contact-cta" href="https://discordapp.com/users/918805964965171220" target="_blank" rel="noreferrer">Contact me <span aria-hidden="true">↗</span></a></div>
+          <div class="social-links" aria-label="Social links">
+            <a class="social-link" href="https://x.com/oAtom_fx" target="_blank" rel="noreferrer"><span>X / Twitter</span><strong>@oAtom_fx ↗</strong></a>
+            <a class="social-link" href="https://www.instagram.com/anshladhe/" target="_blank" rel="noreferrer"><span>Instagram</span><strong>@anshladhe ↗</strong></a>
+            <a class="social-link" href="https://discordapp.com/users/918805964965171220" target="_blank" rel="noreferrer"><span>Discord</span><strong>atommhere ↗</strong></a>
+          </div>
+          <div class="contact-footer"><span>Usually replies within 24 hours</span><span>Contact · atommhere</span></div>
+        </div>
+      </section>
+
+    </main>
+
+    <div class="thumbnail-lightbox" id="thumbnail-lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <div class="lightbox-panel glass-panel">
+        <div class="lightbox-toolbar">
+          <h2 id="lightbox-title">Thumbnail preview</h2>
+          <div class="lightbox-controls">
+            <button class="lightbox-button" id="zoom-out" type="button" aria-label="Zoom out">−</button>
+            <span id="zoom-level">100%</span>
+            <button class="lightbox-button" id="zoom-in" type="button" aria-label="Zoom in">+</button>
+            <button class="lightbox-button lightbox-close" id="lightbox-close" type="button" aria-label="Close preview">×</button>
+          </div>
+        </div>
+        <div class="lightbox-stage" id="lightbox-stage">
+          <img id="lightbox-image" alt="" />
+        </div>
+        <p class="lightbox-hint">Scroll over the thumbnail to zoom · Press Escape to close</p>
+      </div>
+    </div>
+  </body>
+</html>

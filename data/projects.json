@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "untitled-thumbnail-e2d450",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/c0d7199a-82c2-43ca-8fc5-7bba1e3defd9.jpg"
+    },
+    {
+      "id": "untitled-thumbnail-18c837",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/ab58601b-81d7-469a-95b2-ec41aa05f8be.jpg"
+    },
+    {
+      "id": "untitled-thumbnail-ea7e56",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/24f0716c-ae05-4b58-8764-0dfb93e6f2fb.jpg"
+    },
+    {
+      "id": "untitled-thumbnail-d4a529",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/e2c2b802-5257-409b-8d49-c27f629fe000.jpg"
+    }
+  ]
+}
