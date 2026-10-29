@@ -1,83 +1,85 @@
-[
-  {
-    "key": "acookiegod",
-    "name": "aCookieGod",
-    "nameOverride": "",
-    "channelId": "UCIVSqoHCUN1XdEpiVItxfoQ",
-    "subscriberLabel": "8.2M SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/LRSOZjCXnsmbpkbxWdCNQOW_XbnIk9pTkf0pE2ML5pGukr2QKTkd-rqRk7jzURt0y31T-1_OM18=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "notvixios",
-    "name": "NotVixios",
-    "nameOverride": "",
-    "channelId": "UCy5pKkNQl45VSp8nOADN5Vw",
-    "subscriberLabel": "2.3M SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/g9hHJ1PxeBHgwHsKuLkBkR-bDP4d_SRQKGtso4fQ0ajTeltV9lmEAHHacPOUXwnV710Ys5FZxA=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "mr-rishi",
-    "name": "Mr. Rishi",
-    "nameOverride": "",
-    "channelId": "UCkbtSGtuMB_SG0xqs5rxuXQ",
-    "subscriberLabel": "1.6M SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/0X7lGdJM1SHCPpbwVthUWQwnyp7rdDxo-CJF0mD7-t1_k15Bp3rqFxdb6HlC3YhIS3pHANdkzDU=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "livinglegend",
-    "name": "LivingLegend",
-    "nameOverride": "",
-    "channelId": "UC-w7DpvqumQrmXMxNujXn0A",
-    "subscriberLabel": "102K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/4PLjnda6msgK5cP7XBUNTyS31j6IipbyD5XbLRJE2x8slul_vBaZIbGhEV3cacXrUSd4nmGHEw=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "donvision",
-    "name": "DonVision",
-    "nameOverride": "",
-    "channelId": "UC2QcnyA3T0aLnD_nHEc5T5Q",
-    "subscriberLabel": "69.5K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/wbwuyeRLQulcE8AUlKynAlfn5xLxq7HIFc0wY_1pN6PCm8bFR34fZsG95HQqKkN3O6NFcUFT=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "dimension-thunder",
-    "name": "Dimension Thunder",
-    "nameOverride": "",
-    "channelId": "UC1xp2dWQLb0EMzIKXH2-clQ",
-    "subscriberLabel": "169K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/YLTAydsi-uDJGs_2HyyJ2BIq30FFaKFyJneWGGGZQjcV3O0dI_F7vc21_uH-EQPb6ZMdwy52riI=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "itznectar",
-    "name": "ItzNectar",
-    "nameOverride": "",
-    "channelId": "UCpbDt1C_yk1j6S1Djfq0BsA",
-    "subscriberLabel": "22.5K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/X5CMjENRyqhak4I0rYqyjehNBDN_6HNy3ksfTSykKYW6E22ukxWWLY03GViw96ZzqCWp4P_hig=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "zenpiedragon",
-    "name": "ZenpieDragon",
-    "nameOverride": "",
-    "channelId": "UCtC2VSLAim2UrIwQlWzqxIw",
-    "subscriberLabel": "37.2K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/oorMm247z8En6tmkxOb7KT8S9JUyJG_G9n-LhOlIUe0saArU-cWYkIjC0uID01IIsVuz2eMZNw=s800-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "key": "navkaran",
-    "name": "Navkaran",
-    "nameOverride": "",
-    "channelId": "UC4Sv52CiisJ5NFGBWM59RPA",
-    "subscriberLabel": "5.8K SUBS",
-    "notes": "",
-    "thumbnail": "https://yt3.ggpht.com/xf35aWi_k5Krrv-l2kW9j9j--DDWw-MaedyzvUT0T7MKxd_bjvtxhXibAo-OYmpZ3aJzwtoAdPs=s800-c-k-c0x00ffffff-no-rj"
-  }
-]
+{
+  "clients": [
+    {
+      "key": "acookiegod",
+      "name": "aCookieGod",
+      "nameOverride": "",
+      "channelId": "UCIVSqoHCUN1XdEpiVItxfoQ",
+      "subscriberLabel": "8.2M SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/LRSOZjCXnsmbpkbxWdCNQOW_XbnIk9pTkf0pE2ML5pGukr2QKTkd-rqRk7jzURt0y31T-1_OM18=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "notvixios",
+      "name": "NotVixios",
+      "nameOverride": "",
+      "channelId": "UCy5pKkNQl45VSp8nOADN5Vw",
+      "subscriberLabel": "2.3M SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/g9hHJ1PxeBHgwHsKuLkBkR-bDP4d_SRQKGtso4fQ0ajTeltV9lmEAHHacPOUXwnV710Ys5FZxA=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "mr-rishi",
+      "name": "Mr. Rishi",
+      "nameOverride": "",
+      "channelId": "UCkbtSGtuMB_SG0xqs5rxuXQ",
+      "subscriberLabel": "1.6M SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/0X7lGdJM1SHCPpbwVthUWQwnyp7rdDxo-CJF0mD7-t1_k15Bp3rqFxdb6HlC3YhIS3pHANdkzDU=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "livinglegend",
+      "name": "LivingLegend",
+      "nameOverride": "",
+      "channelId": "UC-w7DpvqumQrmXMxNujXn0A",
+      "subscriberLabel": "102K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/4PLjnda6msgK5cP7XBUNTyS31j6IipbyD5XbLRJE2x8slul_vBaZIbGhEV3cacXrUSd4nmGHEw=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "donvision",
+      "name": "DonVision",
+      "nameOverride": "",
+      "channelId": "UC2QcnyA3T0aLnD_nHEc5T5Q",
+      "subscriberLabel": "69.5K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/wbwuyeRLQulcE8AUlKynAlfn5xLxq7HIFc0wY_1pN6PCm8bFR34fZsG95HQqKkN3O6NFcUFT=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "dimension-thunder",
+      "name": "Dimension Thunder",
+      "nameOverride": "",
+      "channelId": "UC1xp2dWQLb0EMzIKXH2-clQ",
+      "subscriberLabel": "169K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/YLTAydsi-uDJGs_2HyyJ2BIq30FFaKFyJneWGGGZQjcV3O0dI_F7vc21_uH-EQPb6ZMdwy52riI=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "itznectar",
+      "name": "ItzNectar",
+      "nameOverride": "",
+      "channelId": "UCpbDt1C_yk1j6S1Djfq0BsA",
+      "subscriberLabel": "22.5K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/X5CMjENRyqhak4I0rYqyjehNBDN_6HNy3ksfTSykKYW6E22ukxWWLY03GViw96ZzqCWp4P_hig=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "zenpiedragon",
+      "name": "ZenpieDragon",
+      "nameOverride": "",
+      "channelId": "UCtC2VSLAim2UrIwQlWzqxIw",
+      "subscriberLabel": "37.2K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/oorMm247z8En6tmkxOb7KT8S9JUyJG_G9n-LhOlIUe0saArU-cWYkIjC0uID01IIsVuz2eMZNw=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "key": "navkaran",
+      "name": "Navkaran",
+      "nameOverride": "",
+      "channelId": "UC4Sv52CiisJ5NFGBWM59RPA",
+      "subscriberLabel": "5.8K SUBS",
+      "notes": "",
+      "thumbnail": "https://yt3.ggpht.com/xf35aWi_k5Krrv-l2kW9j9j--DDWw-MaedyzvUT0T7MKxd_bjvtxhXibAo-OYmpZ3aJzwtoAdPs=s800-c-k-c0x00ffffff-no-rj"
+    }
+  ]
+}

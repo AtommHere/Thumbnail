@@ -6,7 +6,8 @@
       "description": "",
       "category": "other",
       "tags": [],
-      "imageUrl": "uploads/c0d7199a-82c2-43ca-8fc5-7bba1e3defd9.jpg"
+      "imageUrl": "uploads/c0d7199a-82c2-43ca-8fc5-7bba1e3defd9.jpg",
+      "createdAt": "2026-10-29T08:47:12.090Z"
     },
     {
       "id": "untitled-thumbnail-18c837",
@@ -14,7 +15,9 @@
       "description": "",
       "category": "other",
       "tags": [],
-      "imageUrl": "uploads/ab58601b-81d7-469a-95b2-ec41aa05f8be.jpg"
+      "imageUrl": "uploads/ab58601b-81d7-469a-95b2-ec41aa05f8be.jpg",
+      "createdAt": "2026-10-29T08:32:59.768Z",
+      "updatedAt": "2026-10-29T08:46:23.968Z"
     },
     {
       "id": "untitled-thumbnail-ea7e56",
@@ -22,7 +25,8 @@
       "description": "",
       "category": "other",
       "tags": [],
-      "imageUrl": "uploads/24f0716c-ae05-4b58-8764-0dfb93e6f2fb.jpg"
+      "imageUrl": "uploads/24f0716c-ae05-4b58-8764-0dfb93e6f2fb.jpg",
+      "createdAt": "2026-10-29T08:31:31.558Z"
     },
     {
       "id": "untitled-thumbnail-d4a529",
@@ -30,7 +34,8 @@
       "description": "",
       "category": "other",
       "tags": [],
-      "imageUrl": "uploads/e2c2b802-5257-409b-8d49-c27f629fe000.jpg"
+      "imageUrl": "uploads/e2c2b802-5257-409b-8d49-c27f629fe000.jpg",
+      "createdAt": "2026-10-29T08:28:18.481Z"
     }
   ]
 }

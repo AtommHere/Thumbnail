@@ -13,6 +13,8 @@ const fetchWithStaticFallback = async (apiPath, staticPath) => {
   return fallback.json();
 };
 
+const collectionFrom = (payload, key) => Array.isArray(payload) ? payload : (payload?.[key] || []);
+
 const createYouClient = () => {
   const profile = document.createElement('a');
   profile.className = 'client-profile client-profile-you';
@@ -77,7 +79,7 @@ const renderClients = () => {
 const loadClients = async () => {
   try {
     const payload = await fetchWithStaticFallback('/api/clients', 'data/clients.json');
-    savedClients = (payload.clients || []).sort((a, b) => Number(b.subscriberCount || 0) - Number(a.subscriberCount || 0));
+    savedClients = collectionFrom(payload, 'clients').sort((a, b) => Number(b.subscriberCount || 0) - Number(a.subscriberCount || 0));
     renderClients();
   } catch (error) {
     console.warn('Client API unavailable. No client profiles were rendered.', error);
@@ -157,7 +159,7 @@ const loadProjects = async () => {
   try {
     const payload = await fetchWithStaticFallback('/api/projects', 'data/projects.json');
     projectGrid.querySelectorAll('.api-project').forEach((card) => card.remove());
-    const uploadedProjects = (payload.projects || []).filter((project) => project.imageUrl);
+    const uploadedProjects = collectionFrom(payload, 'projects').filter((project) => project.imageUrl);
     uploadedProjects.reverse().forEach((project) => {
       const card = createUploadedProjectCard(project);
       card.classList.add('api-project');
@@ -201,7 +203,7 @@ const loadReviews = async () => {
   if (!reviewList) return;
   try {
     const payload = await fetchWithStaticFallback('/api/reviews', 'data/reviews.json');
-    reviewList.replaceChildren(...(payload.reviews || []).map(createReviewCard));
+    reviewList.replaceChildren(...collectionFrom(payload, 'reviews').map(createReviewCard));
   } catch (error) {
     console.warn('Review API unavailable. No reviews were rendered.', error);
   }
