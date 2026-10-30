@@ -14,6 +14,15 @@ const fetchWithStaticFallback = async (apiPath, staticPath) => {
 };
 
 const collectionFrom = (payload, key) => Array.isArray(payload) ? payload : (payload?.[key] || []);
+const clientSubscriberCount = (client) => {
+  const exactCount = Number(client?.subscriberCount);
+  if (Number.isFinite(exactCount) && exactCount > 0) return exactCount;
+  const match = String(client?.subscriberLabel || '').match(/([\d,.]+)\s*([KMB])?/i);
+  if (!match) return 0;
+  const amount = Number(match[1].replace(/,/g, ''));
+  const multiplier = { K: 1e3, M: 1e6, B: 1e9 }[String(match[2] || '').toUpperCase()] || 1;
+  return amount * multiplier;
+};
 
 const createYouClient = () => {
   const profile = document.createElement('a');
@@ -79,7 +88,7 @@ const renderClients = () => {
 const loadClients = async () => {
   try {
     const payload = await fetchWithStaticFallback('/api/clients', 'data/clients.json');
-    savedClients = collectionFrom(payload, 'clients').sort((a, b) => Number(b.subscriberCount || 0) - Number(a.subscriberCount || 0));
+    savedClients = collectionFrom(payload, 'clients').sort((a, b) => clientSubscriberCount(b) - clientSubscriberCount(a));
     renderClients();
   } catch (error) {
     console.warn('Client API unavailable. No client profiles were rendered.', error);
