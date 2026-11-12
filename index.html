@@ -9,6 +9,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <a class="skip-link" href="#top">Skip to content</a>
     <div class="scene" aria-hidden="true">
       <span class="orb orb-one"></span>
       <span class="orb orb-two"></span>
@@ -24,16 +25,16 @@
           <span class="sr-only">Toggle navigation</span>
         </button>
         <div class="nav-links" id="site-menu">
-          <a href="#about">About</a>
           <a href="#clients">Clients</a>
-          <a href="#reviews">Reviews</a>
           <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#reviews">Reviews</a>
           <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
         </div>
       </nav>
     </header>
 
-    <main id="top">
+      <main id="top" tabindex="-1">
       <section class="hero shell" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
           <p class="eyebrow"><span class="status-dot"></span> Thumbnail archive <span class="eyebrow-divider">/</span> 2024—26</p>
@@ -52,8 +53,10 @@
           <div><p class="eyebrow">01 / Clients</p><h2 id="clients-title">Made for<br /><span>your favorites.</span></h2></div>
           <p class="section-note">From first-time uploaders to established SMPs, the goal stays the same: make the right people stop.</p>
         </div>
-        <div class="client-grid client-roster reveal reveal-delay-1" aria-label="Selected clients"><p class="clients-empty" hidden>No client profiles have been added yet.</p></div>
-        <button class="show-more-clients" id="show-more-clients" type="button" hidden>Show more clients <span aria-hidden="true">↗</span></button>
+        <div class="client-grid client-roster reveal reveal-delay-1" id="client-roster" aria-label="Selected clients"><p class="clients-empty" hidden>No client profiles have been added yet.</p></div>
+        <p class="content-status" id="clients-status" role="status" aria-live="polite">Loading clients…</p>
+        <button class="content-retry" id="retry-clients" type="button" hidden>Try again</button>
+        <button class="show-more-clients" id="show-more-clients" type="button" aria-expanded="false" aria-controls="client-roster" hidden>Show more clients <span aria-hidden="true">↗</span></button>
         <div class="client-strip reveal reveal-delay-2"><span>Selected by creators who want a stronger first frame.</span><span>Artwork as you want</span></div>
       </section>
 
@@ -70,6 +73,8 @@
         </div>
 
         <p class="empty-state" hidden>No thumbnails have been added yet.</p>
+        <p class="content-status" id="projects-status" role="status" aria-live="polite">Loading thumbnails…</p>
+        <button class="content-retry" id="retry-projects" type="button" hidden>Try again</button>
       </section>
 
       <section class="about-section shell page-section" id="about" aria-labelledby="about-title">
@@ -96,12 +101,14 @@
           <div><p class="eyebrow">04 / Reviews</p><h2 id="reviews-title">Clients say it<br /><span>best.</span></h2></div>
           <p class="section-note">The work should feel good before the upload, and even better when the numbers come in.</p>
         </div>
-        <div class="testimonial-grid" id="review-list" aria-live="polite"></div>
+        <p class="content-status" id="reviews-status" role="status" aria-live="polite">Loading reviews…</p>
+        <button class="content-retry" id="retry-reviews" type="button" hidden>Try again</button>
+        <div class="testimonial-grid" id="review-list"></div>
       </section>
 
       <section class="contact-section shell page-section" id="contact" aria-labelledby="contact-title">
         <div class="contact-panel glass-panel reveal">
-          <div><p class="eyebrow">05 / Contact us</p><h2 id="contact-title">Have an upload<br /><span>to show off?</span></h2></div>
+          <div><p class="eyebrow">05 / Contact</p><h2 id="contact-title">Have an upload<br /><span>to show off?</span></h2></div>
           <div class="contact-copy"><p>Tell me what you are making, where it is going, and what you want people to feel when they see it.</p><span class="contact-note">Open for thumbnail commissions</span><a class="button button-primary contact-cta" href="https://discordapp.com/users/918805964965171220" target="_blank" rel="noreferrer">Contact me <span aria-hidden="true">↗</span></a></div>
           <div class="social-links" aria-label="Social links">
             <a class="social-link" href="https://x.com/oAtom_fx" target="_blank" rel="noreferrer"><span>X / Twitter</span><strong>@oAtom_fx ↗</strong></a>
@@ -114,22 +121,20 @@
 
     </main>
 
-    <div class="thumbnail-lightbox" id="thumbnail-lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="thumbnail-lightbox" id="thumbnail-lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-hint">
       <div class="lightbox-backdrop" data-lightbox-close></div>
       <div class="lightbox-panel glass-panel">
         <div class="lightbox-toolbar">
           <h2 id="lightbox-title">Thumbnail preview</h2>
           <div class="lightbox-controls">
-            <button class="lightbox-button" id="zoom-out" type="button" aria-label="Zoom out">−</button>
-            <span id="zoom-level">100%</span>
-            <button class="lightbox-button" id="zoom-in" type="button" aria-label="Zoom in">+</button>
             <button class="lightbox-button lightbox-close" id="lightbox-close" type="button" aria-label="Close preview">×</button>
           </div>
         </div>
-        <div class="lightbox-stage" id="lightbox-stage">
-          <img id="lightbox-image" alt="" />
+        <div class="lightbox-stage" id="lightbox-stage" role="group" aria-label="Thumbnail preview image" tabindex="0">
+          <img id="lightbox-image" alt="" draggable="false" />
         </div>
-        <p class="lightbox-hint">Scroll over the thumbnail to zoom · Press Escape to close</p>
+        <p class="lightbox-hint sr-only" id="lightbox-hint">Scroll over the image or press plus and minus to zoom. Press zero to fit the image. Drag to pan when zoomed, or pinch on a touch screen. Press Escape to close.</p>
+        <p class="sr-only" id="lightbox-zoom-status" role="status" aria-live="polite" aria-atomic="true"></p>
       </div>
     </div>
   </body>

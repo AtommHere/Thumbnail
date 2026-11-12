@@ -1,89 +1,74 @@
-{
-  "projects": [
-    {
-      "id": "untitled-thumbnail-943252",
-      "title": "I Created a Secret Minecraft Kingdom",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/45524e7b-37ad-497f-bc25-f7623d61d04e.jpg",
-      "createdAt": "2026-11-08T15:31:03.697Z",
-      "updatedAt": "2026-11-08T15:33:54.529Z"
-    },
-    {
-      "id": "untitled-thumbnail-5a316c",
-      "title": "In This Minecraft Event You Gain Disabilities...",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/96ae504d-1ea5-4728-9031-dc63ceddfae7.jpg",
-      "createdAt": "2026-11-07T13:01:14.531Z",
-      "updatedAt": "2026-11-08T15:33:31.166Z"
-    },
-    {
-      "id": "untitled-thumbnail-88fc8c",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/96762378-f8f0-4892-980e-f3ed8b637a78.jpg",
-      "createdAt": "2026-11-07T12:58:45.224Z"
-    },
-    {
-      "id": "untitled-thumbnail-d108ef",
-      "title": "I Survived 100 Days on ONE LUCKY BLOCK in Hardcore Minecraft",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/a4c15c1a-4520-4592-af10-10df28365b53.jpg",
-      "createdAt": "2026-10-31T18:02:10.592Z",
-      "updatedAt": "2026-11-08T15:33:05.001Z"
-    },
-    {
-      "id": "untitled-thumbnail-06f35e",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/2e538a02-7cbd-42ea-9a39-ab006d4fbed1.jpg",
-      "createdAt": "2026-10-29T11:53:20.782Z"
-    },
-    {
-      "id": "untitled-thumbnail-e2d450",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/c0d7199a-82c2-43ca-8fc5-7bba1e3defd9.jpg",
-      "createdAt": "2026-10-29T08:47:12.090Z"
-    },
-    {
-      "id": "untitled-thumbnail-18c837",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/ab58601b-81d7-469a-95b2-ec41aa05f8be.jpg",
-      "createdAt": "2026-10-29T08:32:59.768Z",
-      "updatedAt": "2026-10-29T08:46:23.968Z"
-    },
-    {
-      "id": "untitled-thumbnail-ea7e56",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/24f0716c-ae05-4b58-8764-0dfb93e6f2fb.jpg",
-      "createdAt": "2026-10-29T08:31:31.558Z"
-    },
-    {
-      "id": "untitled-thumbnail-d4a529",
-      "title": "Untitled thumbnail",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/e2c2b802-5257-409b-8d49-c27f629fe000.jpg",
-      "createdAt": "2026-10-29T08:28:18.481Z"
-    }
-  ]
-}
+[
+  {
+    "id": "untitled-thumbnail-943252",
+    "title": "I Created a Secret Minecraft Kingdom",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/45524e7b-37ad-497f-bc25-f7623d61d04e.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-5a316c",
+    "title": "In This Minecraft Event You Gain Disabilities...",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/96ae504d-1ea5-4728-9031-dc63ceddfae7.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-88fc8c",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/96762378-f8f0-4892-980e-f3ed8b637a78.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-d108ef",
+    "title": "I Survived 100 Days on ONE LUCKY BLOCK in Hardcore Minecraft",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/a4c15c1a-4520-4592-af10-10df28365b53.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-06f35e",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/2e538a02-7cbd-42ea-9a39-ab006d4fbed1.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-e2d450",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/c0d7199a-82c2-43ca-8fc5-7bba1e3defd9.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-18c837",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/ab58601b-81d7-469a-95b2-ec41aa05f8be.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-ea7e56",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/24f0716c-ae05-4b58-8764-0dfb93e6f2fb.jpg"
+  },
+  {
+    "id": "untitled-thumbnail-d4a529",
+    "title": "Untitled thumbnail",
+    "description": "",
+    "category": "other",
+    "tags": [],
+    "imageUrl": "uploads/e2c2b802-5257-409b-8d49-c27f629fe000.jpg"
+  }
+]
