@@ -10,15 +10,6 @@
       "createdAt": "2026-11-16T11:20:00.354Z"
     },
     {
-      "id": "this-new-minecraft-weapon-shouldn-t-exist-81693f",
-      "title": "This New Minecraft Weapon Shouldn't Exist",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/da4391a7-9279-465f-b4d2-fdc9a891c2ef.jpg",
-      "createdAt": "2026-11-16T11:10:05.556Z"
-    },
-    {
       "id": "untitled-thumbnail-943252",
       "title": "I Created a Secret Minecraft Kingdom",
       "description": "",
@@ -37,6 +28,15 @@
       "imageUrl": "uploads/96ae504d-1ea5-4728-9031-dc63ceddfae7.jpg",
       "createdAt": "2026-11-07T13:01:14.531Z",
       "updatedAt": "2026-11-08T15:33:31.166Z"
+    },
+    {
+      "id": "untitled-thumbnail-b43866",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/b6926fc4-9ad2-43a8-8e57-cc9902cc5b1e.jpg",
+      "createdAt": "2026-11-20T23:41:50.459Z"
     },
     {
       "id": "untitled-thumbnail-06f35e",
