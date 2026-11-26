@@ -1,15 +1,6 @@
 {
   "projects": [
     {
-      "id": "i-mastered-minecraft-s-new-strongest-weapon-b7bd11",
-      "title": "I Mastered Minecraft's New Strongest Weapon..!",
-      "description": "",
-      "category": "other",
-      "tags": [],
-      "imageUrl": "uploads/39cea2cf-a1ea-430c-a222-5be83741e7cc.jpg",
-      "createdAt": "2026-11-16T11:20:00.354Z"
-    },
-    {
       "id": "untitled-thumbnail-5a316c",
       "title": "In This Minecraft Event You Gain Disabilities...",
       "description": "",
@@ -93,6 +84,15 @@
       "tags": [],
       "imageUrl": "uploads/92030573-08c3-4367-83e1-ac67846a0db0.jpg",
       "createdAt": "2026-11-20T17:00:25.808Z"
+    },
+    {
+      "id": "untitled-thumbnail-dc73ec",
+      "title": "Untitled thumbnail",
+      "description": "",
+      "category": "other",
+      "tags": [],
+      "imageUrl": "uploads/0ec9c44f-669e-4e78-8847-b73b1db90ff0.jpg",
+      "createdAt": "2026-11-26T01:44:20.007Z"
     },
     {
       "id": "untitled-thumbnail-d4a529",
